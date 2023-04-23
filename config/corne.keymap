@@ -54,7 +54,7 @@
 &trans       &kp Q       &kp W        &kp E        &kp R        &kp T          &kp Y        &kp U        &kp I         &kp O          &kp P  &trans
  &mo 2  &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F        &kp G          &kp H  &mt LSHFT J  &mt LCTRL K    &mt LALT L  &mt LGUI SEMI  &trans
 &trans       &kp Z  &mt RALT X        &kp C        &kp V        &kp B          &kp N        &kp M    &kp COMMA  &mt RALT DOT       &kp FSLH  &trans
-                                  &lt 5 ESC    &lt 3 TAB  &lt 4 ENTER    &lt 7 SPACE   &lt 6 BSPC    &lt 8 DEL
+                                  &lt 4 ESC    &lt 3 TAB  &lt 0 ENTER    &lt 6 SPACE   &lt 5 BSPC    &lt 7 DEL
             >;
         };
 
@@ -69,7 +69,7 @@
 &trans       &kp Q       &kp W        &kp F        &kp P      &kp B          &kp J        &kp L        &kp U         &kp Y     &kp SQT  &trans
  &mo 2  &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T      &kp G          &kp M  &mt LSHFT N  &mt LCTRL E    &mt LALT I  &mt LGUI O  &trans
 &trans       &kp Z  &mt RALT X        &kp C        &kp D      &kp V          &kp K        &kp H     &kp CMMA  &mt RALT DOT    &kp FSLH  &trans
-                                  &lt 5 ESC  &lt 3 SPACE  &lt 4 TAB    &lt 7 ENTER   &lt 6 BSPC    &lt 8 DEL
+                                  &lt 4 ESC  &lt 3 SPACE  &lt 0 TAB    &lt 6 ENTER   &lt 5 BSPC    &lt 7 DEL
             >;
         };
 
@@ -105,21 +105,6 @@
 
         // TODO
         // Add mouse keys when implemented in ZMK
-
-        mouse {
-            // ------------------------------------------------------------------------------------
-            // |     |      |      |       |       |      | # |     |     |     |     |     |     |
-            // |     | LGUI | LALT | LCTRL | LSHFT |      | # |     |     |     |     |     |     |
-            // |     |      | RALT |       |       |      | # |     |     |     |     |     |     |
-            //                     |       |       | HELD | # |     |     |     |
-
-            bindings = <
-&trans    &trans    &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans  &kp RALT     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans     &trans  &trans    &trans  &trans  &trans
-            >;
-        };
 
         media {
             // -----------------------------------------------------------------------------------------------------
